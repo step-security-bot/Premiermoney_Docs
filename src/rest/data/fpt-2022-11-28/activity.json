@@ -1638,7 +1638,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -4790,7 +4790,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -11619,7 +11619,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -14771,7 +14771,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -21608,7 +21608,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -24760,7 +24760,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -31577,7 +31577,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -34729,7 +34729,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -41540,7 +41540,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -44692,7 +44692,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -51528,7 +51528,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -54680,7 +54680,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -61490,7 +61490,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -64642,7 +64642,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -71454,7 +71454,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -74606,7 +74606,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -81418,7 +81418,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -84570,7 +84570,7 @@
                               },
                               "type": {
                                 "title": "Issue Type",
-                                "description": "The type of issue.",
+                                "description": "The type assigned to the issue. This is only present for issues in repositories where issue types are supported.",
                                 "type": [
                                   "object",
                                   "null"
@@ -90081,8 +90081,7 @@
           "in": "query",
           "required": false,
           "schema": {
-            "type": "string",
-            "format": "date-time"
+            "type": "string"
           }
         },
         {
@@ -90091,8 +90090,7 @@
           "in": "query",
           "required": false,
           "schema": {
-            "type": "string",
-            "format": "date-time"
+            "type": "string"
           }
         },
         {
@@ -92482,8 +92480,7 @@
           "in": "query",
           "required": false,
           "schema": {
-            "type": "string",
-            "format": "date-time"
+            "type": "string"
           }
         },
         {
@@ -92492,8 +92489,7 @@
           "in": "query",
           "required": false,
           "schema": {
-            "type": "string",
-            "format": "date-time"
+            "type": "string"
           }
         },
         {
@@ -94173,11 +94169,11 @@
           "required": false,
           "schema": {
             "type": "string",
+            "default": "created",
             "enum": [
               "created",
               "updated"
-            ],
-            "default": "created"
+            ]
           }
         },
         {
@@ -94187,11 +94183,11 @@
           "required": false,
           "schema": {
             "type": "string",
+            "default": "desc",
             "enum": [
               "asc",
               "desc"
-            ],
-            "default": "desc"
+            ]
           }
         },
         {
@@ -96162,11 +96158,11 @@
           "required": false,
           "schema": {
             "type": "string",
+            "default": "created",
             "enum": [
               "created",
               "updated"
-            ],
-            "default": "created"
+            ]
           }
         },
         {
@@ -96176,11 +96172,11 @@
           "required": false,
           "schema": {
             "type": "string",
+            "default": "desc",
             "enum": [
               "asc",
               "desc"
-            ],
-            "default": "desc"
+            ]
           }
         },
         {
