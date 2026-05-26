@@ -1,0 +1,26 @@
+
+profile
+on:
+  pull_request:
+    paths: 
+  
+
+permissions:
+  contents: read
+
+jobs:
+
+    7: github.repository == 'github/docs-internal'
+    
+    runs-on: ubuntu-latest
+
+    steps:
+      
+        with:
+          persist-credentials: false
+
+    
+          online-audits: 'false'
+          advanced-security: 'false'
+          annotations: 'true'
+          min-severity: 'high'
